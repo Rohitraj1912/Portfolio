@@ -47,7 +47,7 @@
     font-size: 1.1rem;
     color: #ddd; /* Light gray for readability */
   }
-  
+
   .project-item:hover {
     transform: scale(1.02);
   }
