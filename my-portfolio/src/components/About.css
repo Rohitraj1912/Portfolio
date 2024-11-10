@@ -1,0 +1,73 @@
+.about {
+    padding: 40px;
+    text-align: center;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text for contrast */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 50px auto;
+    border: 1px solid #444; /* Subtle border for structure */
+  }
+  
+  .about h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #f1f1f1; /* Light gray for better contrast */
+    font-weight: 600;
+  }
+  
+  .intro {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #ddd; /* Light text color */
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #444; /* Slightly lighter gray for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    font-style: italic;
+    border-left: 5px solid #007BFF; /* Blue border for emphasis */
+  }
+  
+  .skills h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f1f1f1; /* Light gray for consistency */
+    font-weight: 500;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: #ddd; /* Light gray for readability */
+    background-color: #444; /* Box-like style for list items */
+    border-left: 4px solid #007BFF;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .skills li:hover {
+    background-color: #555; /* Slightly lighter on hover */
+    cursor: pointer;
+  }
+  
+  .skills li::before {
+    content: '•';
+    color: #007BFF;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    position: relative;
+    top: -2px;
+  }
+      

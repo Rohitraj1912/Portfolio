@@ -1,0 +1,54 @@
+.projects {
+    padding: 40px;
+    text-align: center;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text for contrast */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 50px auto;
+    border: 1px solid #444; /* Subtle border for structure */
+  }
+  
+  .projects h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #f1f1f1; /* Light gray for contrast */
+    font-weight: 600;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #ddd; /* Light color for readability */
+  }
+  
+  .project-list {
+    text-align: left;
+  }
+  
+  .project-item {
+    background-color: #444; /* Slightly lighter gray for boxes */
+    border-left: 5px solid #007BFF;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .project-item h3 {
+    font-size: 1.5rem;
+    color: #f1f1f1; /* Light color for readability */
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    font-size: 1.1rem;
+    color: #ddd; /* Light gray for readability */
+  }
+  
+  .project-item:hover {
+    transform: scale(1.02);
+  }
+  
